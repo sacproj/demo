@@ -1,0 +1,18 @@
+{
+  "data": {
+    "labels": ["Africa", "Asia", "Europe", "Latin America", "North America"],
+    "datasets": [{
+      "label": "1950",
+      "data": [8.77, 55.61, 21.69, 6.62, 6.82]
+    }, {
+      "label": "2050",
+      "data": [25.48, 54.16, 7.61, 8.06, 4.45]
+    }]
+  },
+  "options": {
+    "title": {
+      "display": true,
+      "text": "Distribution in % of world population"
+    }
+  }
+}

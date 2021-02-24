@@ -1,0 +1,18 @@
+{
+  "data": {
+    "labels": ["Africa", "Asia", "Europe", "Latin America", "North America"],
+    "datasets": [{
+      "label": "Population (millions)",
+      "data": [2478, 5267, 734, 784, 433]
+    }]
+  },
+  "options": {
+    "legend": {
+      "display": false
+    },
+    "title": {
+      "display": true,
+      "text": "Predicted world population (millions) in 2050"
+    }
+  }
+}
