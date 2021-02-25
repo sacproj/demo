@@ -22,6 +22,9 @@ sac x.y.z on Darwin
 # Checking jq: OK
 jq-1.6
 
+# Checking yq: OK
+yq version 4.6.0
+
 # Checking realpath: OK
 realpath (GNU coreutils) 8.32
 Copyright (C) 2020 Free Software Foundation, Inc.
@@ -37,7 +40,7 @@ Hugo Static Site Generator v0.80.0/extended darwin/amd64 BuildDate: unknown
 
 {{< lines "bg-green" >}}
 Install **Slides as Code CLI** with [Homebrew](https://brew.sh/) on {{< fab "fa-apple" >}} macOS and {{< fab "fa-linux" >}} Linux
-Check required tools (hugo, jq, coreutils...)
+Check required tools (hugo, jq, yq, coreutils...)
 {{< /lines >}}
 
 ------
