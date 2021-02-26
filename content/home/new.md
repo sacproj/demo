@@ -8,7 +8,7 @@ markup: "html"
 ------
 ## Steps
 {{< code lang="text" focus="|1|5|7|10,13,16" >}}
-$ sac desk new my-awesome-slides sac-theme/x.y.z
+$ sac deck new my-awesome-slides sac-theme/x.y.z
 Initialized empty Git repository in my-awesome-slides/.git/
 Adding snippets from sac-theme/x.y.z
 
