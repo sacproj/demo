@@ -1,4 +1,4 @@
-<!doctype html><html lang=en><head><meta name=generator content="Hugo 0.80.0"><meta charset=utf-8><meta name=apple-mobile-web-app-capable content="yes"><meta name=apple-mobile-web-app-status-bar-style content="black-translucent"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>Slides as Code</title><meta name=author content="Stéphane Este-Gracias"><meta name=description content="Code your Presentation Slides"><link rel=icon type=image/png href=/demo/icons/favicon.png><link rel=stylesheet href=/demo/libs/reveal.js/reset.css><link rel=stylesheet href=/demo/libs/reveal.js/reveal.css><link href=/demo/sac.css rel=stylesheet id=theme><link rel=stylesheet href=/demo/libs/reveal.js/plugin/highlight/highlight.css id=highlight-theme><link rel=stylesheet href=/demo/libs/asciinema-player/asciinema-player.css><link rel=stylesheet href=/demo/fontawesome/css/all.min.css></head><body><div class=reveal><div class=slides><section data-markdown data-separator=^\r?\n---\r?\n data-separator-vertical=^\r?\n------\r?\n data-separator-notes=[n|N]otes?:><script type=text/template>
+<!doctype html><html lang=en><head><meta name=generator content="Hugo 0.81.0"><meta charset=utf-8><meta name=apple-mobile-web-app-capable content="yes"><meta name=apple-mobile-web-app-status-bar-style content="black-translucent"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>Slides as Code</title><meta name=author content="Stéphane Este-Gracias"><meta name=description content="Code your Presentation Slides"><link rel=icon type=image/png href=/demo/icons/favicon.png><link rel=stylesheet href=/demo/libs/reveal.js/reset.css><link rel=stylesheet href=/demo/libs/reveal.js/reveal.css><link href=/demo/sac.css rel=stylesheet id=theme><link rel=stylesheet href=/demo/libs/reveal.js/plugin/highlight/highlight.css id=highlight-theme><link rel=stylesheet href=/demo/libs/asciinema-player/asciinema-player.css><link rel=stylesheet href=/demo/fontawesome/css/all.min.css></head><body><div class=reveal><div class=slides><section data-markdown data-separator=^\r?\n---\r?\n data-separator-vertical=^\r?\n------\r?\n data-separator-notes=[n|N]otes?:><script type=text/template>
 <!-- .slide: data-background-color="#118ab2" -->
 # Slides as Code
 Code your Presentation Slides
@@ -538,6 +538,32 @@ Lorem ipsum dolor sit amet. (15)
 </code></pre>
 
 
+------
+## Quote
+<blockquote class="quote-text">
+  <i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;The Ultimate Answer to Life, The Universe and Everything is&hellip;42!<br>
+    <span class="quote-attribution">- Douglas Adams, The Hitchhiker&#39;s Guide to the Galaxy</span></blockquote>
+
+------
+## Quote - Source
+<pre class="stretch"><code  class="markdown no-line-numbers" data-line-numbers="" data-fragment-index="0">{{&lt; quote &#34;Douglas Adams, The Hitchhiker&#39;s Guide to the Galaxy&#34; &gt;}}
+The Ultimate Answer to Life, The Universe and Everything is...42!
+{{&lt; /quote &gt;}}
+</code></pre>
+
+
+------
+# Fit Test <!-- .element class="r-fit-text text-uppercase" -->
+## can be used for multiple headlines <!-- .element class="r-fit-text text-uppercase text-electric" -->
+
+
+------
+## Fit Text - Source
+<pre class="stretch"><code  class="markdown no-line-numbers" data-line-numbers="" data-fragment-index="0"># fit test &lt;!-- .element class=&#34;r-fit-text text-uppercase&#34; --&gt;
+## can be used for multiple headlines &lt;!-- .element class=&#34;r-fit-text text-uppercase text-electric&#34; --&gt;
+</code></pre>
+
+
 
 ------
 ## Math
@@ -695,6 +721,58 @@ none
 ------
 ## Slide iframe - Source
 <pre class="stretch"><code  class="markdown no-line-numbers" data-line-numbers="" data-fragment-index="0">{{&lt; slide iframe=&#34;https://www.revealjs.com&#34; &gt;}}
+</code></pre>
+
+
+
+---
+
+<!-- .slide: data-background-color="#118ab2" -->
+# Media
+
+------
+## Image
+<figure><img src="/demo/images/monika-grabkowska-EbRBhZ-I_p8-unsplash.jpg"  height="600"   ></figure>
+
+------
+## Image - Source
+<pre class="stretch"><code  class="markdown no-line-numbers" data-line-numbers="" data-fragment-index="0">{{&lt; img height=&#34;600&#34; src=&#34;images/monika-grabkowska-EbRBhZ-I_p8-unsplash.jpg&#34; &gt;}}
+</code></pre>
+
+<span>Photo by <a href="https://unsplash.com/@moniqa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" data-preview-link="false">Monika Grabkowska</a> on <a href="https://unsplash.com/collections/8371842/food-%26-drink?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" data-preview-link="false">Unsplash</a></span>
+
+------
+## Image with Frame
+<figure><img src="/demo/images/monika-grabkowska-EbRBhZ-I_p8-unsplash.jpg"  height="600"  class="r-frame" ></figure>
+
+------
+## Image with Frame - Source
+<pre class="stretch"><code  class="markdown no-line-numbers" data-line-numbers="" data-fragment-index="0">{{&lt; img class=&#34;r-frame&#34; height=&#34;600&#34; src=&#34;images/monika-grabkowska-EbRBhZ-I_p8-unsplash.jpg&#34; &gt;}}
+</code></pre>
+
+<span>Photo by <a href="https://unsplash.com/@moniqa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" data-preview-link="false">Monika Grabkowska</a> on <a href="https://unsplash.com/collections/8371842/food-%26-drink?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" data-preview-link="false">Unsplash</a></span>
+
+------
+## Video
+<video    controls class="r-stretch" >
+  <source src="/demo/videos/Synthwave%20Animation%20Loop%20-%20Creative%20Commons-1eHwlmn_Mps.webm">
+</video>
+
+------
+## Video - Source
+<pre class="stretch"><code  class="markdown no-line-numbers" data-line-numbers="" data-fragment-index="0">{{&lt; video class=&#34;r-stretch&#34; src=&#34;videos/Synthwave Animation Loop - Creative Commons-1eHwlmn_Mps.webm&#34; autoplay=&#34;false&#34; &gt;}}
+</code></pre>
+
+<span>Video by <a href="https://royaltyfreetube.com/" data-preview-link="false">RoyaltyFreeTube</a> - License <a href="https://creativecommons.org/licenses/by/4.0/" data-preview-link="false">Creative Common BY 4.0
+</a></span>
+
+------
+## Iframe
+<iframe width="600" height="600"  src="https://revealjs.com"></iframe>
+
+------
+## Iframe - Source
+<pre class="stretch"><code  class="markdown no-line-numbers" data-line-numbers="" data-fragment-index="0">&lt;iframe width=&#34;600&#34; height=&#34;600&#34;  src=&#34;https://revealjs.com&#34;&gt;&lt;/iframe&gt;
 </code></pre>
 
 
