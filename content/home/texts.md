@@ -109,6 +109,32 @@ markup: "html"
 {{< div "text-15" >}}Lorem ipsum dolor sit amet. (15){{< /div */>}}
 {{< /code >}}
 
+------
+## Quote
+{{< quote "Douglas Adams, The Hitchhiker's Guide to the Galaxy" >}}
+The Ultimate Answer to Life, The Universe and Everything is...42!
+{{< /quote >}}
+
+------
+## Quote - Source
+{{< code lang="markdown" stretch="true" >}}
+{{</* quote "Douglas Adams, The Hitchhiker's Guide to the Galaxy" >}}
+The Ultimate Answer to Life, The Universe and Everything is...42!
+{{< /quote */>}}
+{{< /code >}}
+
+------
+# Fit Test <!-- .element class="r-fit-text text-uppercase" -->
+## can be used for multiple headlines <!-- .element class="r-fit-text text-uppercase text-electric" -->
+
+
+------
+## Fit Text - Source
+{{< code lang="markdown" stretch="true" >}}
+# fit test <!-- .element class="r-fit-text text-uppercase" -->
+## can be used for multiple headlines <!-- .element class="r-fit-text text-uppercase text-electric" -->
+{{< /code >}}
+
 
 ------
 ## Math
