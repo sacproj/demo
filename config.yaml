@@ -11,3 +11,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+params:
+  options:
+    controls: true
+    controls_tutorial: true
